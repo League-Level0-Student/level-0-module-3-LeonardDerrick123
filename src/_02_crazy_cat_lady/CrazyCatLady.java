@@ -12,6 +12,7 @@ public class CrazyCatLady {
 		// 1. Ask the user how many cats they have
 String Bird = JOptionPane.showInputDialog("How many Birds do you have");
 		// 2. Convert their answer into an int
+int Lady = Integer.parseInt(Bird);
 		// 3. If they have 3 or more cats, tell them they are a crazy cat lady
 if(Lady>2) {
 	JOptionPane.showInternalMessageDialog(null, "Your a Crazy Bird Lady");
@@ -23,6 +24,7 @@ if(Lady<3 && Lady>0) {
 	//5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
 if(Lady==0) {
 	playVideo("https://www.youtube.com/watch?v=ZJT9CeEhM10");
+	}
 	}
 	static void playVideo(String videoURL) {
 		try {
