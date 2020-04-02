@@ -21,9 +21,9 @@ String user =	JOptionPane.showInputDialog("Whats your star sign");
 				"Leo belongs to the element of Fire, just like Aries and Sagittarius. This makes them warmhearted, in love with life, trying to laugh and have a good time. Able to use their mind to solve even the most difficult problems, they will easily take initiative in resolving various complicated situations. Ruled by the Sun, Leo worships this fiery entity in the sky, quite literally as well as metaphorically. They are in search for self-awareness and in constant growth of ego. Aware of their desires and personality, they can easily ask for everything they need, but could just as easily unconsciously neglect the needs of other people in their chase for personal gain or status. When a Leo representative becomes too fond and attached to their achievements and the way other people see them, they become an easy target, ready to be taken down.\n" + 
 			
 				"Leo - the Lion in the Cave The story of the Lion always speaks of bravery. This is an animal fearless and impossible to challenge, hurt or destroy, their only weaknesses being fear and aggression towards those they confront. Living in a cave, a Lion always needs to have one, nesting and finding comfort in hard times. However, they should never stay there for long. With their head high, they have to face others with dignity and respect, never raising a voice, a hand, or a weapon, bravely walking through the forest they rule.\n" + 
-				"");
+				"");}
 	
-	if (user.equalsIgnoreCase("Aries")) {
+		else	if (user.equalsIgnoreCase("Aries")) {
 		JOptionPane.showMessageDialog(null," Strengths: Courageous, determined, confident, enthusiastic, optimistic, honest, passionate\n" + 
 			
 			"Weaknesses: Impatient, moody, short-tempered, impulsive, aggressive\n" + 
@@ -38,26 +38,20 @@ String user =	JOptionPane.showInputDialog("Whats your star sign");
 		
 			"Aries rules the head and leads with the head, often literally walking head first, leaning forwards for speed and focus. Its representatives are naturally brave and rarely afraid of trial and risk. They possess youthful strength and energy, regardless of their age and quickly perform any given tasks.\n" + 
 		 
-			"Aries - the Flying Ram Guided by the story of the Golden Fleece, an Aries is ready to be the hero of the day, fly away and carry many endangered, powerless people on their back. The power of the ram is carried on his back, for he is the gold itself, shiny and attractive to those ready for betrayal. The story of glory that isn't easy to carry is in these two horns, and if this animal doesn't get shorn, allowing change and giving someone a warm sweater, they won't have much to receive from the world. Each Aries has a task to share their position, power, gold, or physical strength with other people willingly, or the energy will be stopped in its natural flow, fear will take over, and the process of giving and receiving will hold balance at zero. But your not a Leo your a weirdo")
-	if (user.equalsIgnoreCase("Sagitarius")) {
-		JOptionPane.showMessageDialog(null, "Strengths: Generous, idealistic, great sense of humor
-
-Weaknesses: Promises more than can deliver, very impatient, will say anything no matter how undiplomatic
-
-Sagittarius likes: Freedom, travel, philosophy, being outdoors
-
-Sagittarius dislikes: Clingy people, being constrained, off-the-wall theories, details
-
-Curious and energetic, Sagittarius is one of the biggest travelers among all zodiac signs. Their open mind and philosophical view motivates them to wander around the world in search of the meaning of life.
-
-Sagittarius is extrovert, optimistic and enthusiastic, and likes changes. Sagittarius-born are able to transform their thoughts into concrete actions and they will do anything to achieve their goals.
-
-Like the other fire signs, Sagittarius needs to be constantly in touch with the world to experience as much as possible. The ruling planet of Sagittarius is Jupiter, the largest planet of the zodiac. Their enthusiasm has no bounds, and therefore people born under the Sagittarius sign possess a great sense of humor and an intense curiosity.
-
-Freedom is their greatest treasure, because only then they can freely travel and explore different cultures and philosophies. Because of their honesty, Sagittarius-born are often impatient and tactless when they need to say or do something, so it's important to learn to express themselves in a tolerant and socially acceptable way.");
-	}
-
-	} 
+			"Aries - the Flying Ram Guided by the story of the Golden Fleece, an Aries is ready to be the hero of the day, fly away and carry many endangered, powerless people on their back. The power of the ram is carried on his back, for he is the gold itself, shiny and attractive to those ready for betrayal. The story of glory that isn't easy to carry is in these two horns, and if this animal doesn't get shorn, allowing change and giving someone a warm sweater, they won't have much to receive from the world. Each Aries has a task to share their position, power, gold, or physical strength with other people willingly, or the energy will be stopped in its natural flow, fear will take over, and the process of giving and receiving will hold balance at zero. But your not a Leo your a weirdo");}
+		else	if (user.equalsIgnoreCase("Sagittarius")) {
+					JOptionPane.showMessageDialog(null,
+			
+			"you're a Sagittarius Harry");}
+				
+				else if (user.equalsIgnoreCase("Scorpio")) {
+					JOptionPane.showMessageDialog(null, "GET OUT MY FACE NOW!!!!!!");
+				}
+		
+		
+					else { JOptionPane.showMessageDialog(null, "your not a Leo so It doesent matter");
+				}
+		
 	
 
 
