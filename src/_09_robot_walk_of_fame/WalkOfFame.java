@@ -14,11 +14,14 @@ public class WalkOfFame {
 		rezhjxlrfjhdkgeduwri.setX(50);
 		rezhjxlrfjhdkgeduwri.setY(200);
 		// 2. Make the robot draw a star shape. Hint: 144.
+		rezhjxlrfjhdkgeduwri.setSpeed(99);
 		rezhjxlrfjhdkgeduwri.penDown();for (int i = 0; i < 5; i++) {
-			
-		}
+			rezhjxlrfjhdkgeduwri.move(30); 
+			rezhjxlrfjhdkgeduwri.turn(144);
+	
+		
 		// 3. Set the size of the star to 30.
-
+		rezhjxlrfjhdkgeduwri.hide();
 		/** THE CHALLENGE: **/
 		/*
 		 * Make the robot draw a line of stars like this:
@@ -28,5 +31,7 @@ public class WalkOfFame {
 		 */
 
 	}
+
+}
 
 }
