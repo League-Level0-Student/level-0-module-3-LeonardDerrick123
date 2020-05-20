@@ -1,5 +1,8 @@
 int ellipseX1 = 100;
 int ellipseX2 = 500;
+int  speed = 1;
+
+
 void setup(){
   size(600,600);
 }
@@ -17,10 +20,12 @@ void draw(){
  } 
   
   
-  ellipseX1++;
-  ellipseX2--;
+  ellipseX1+=speed;
+  ellipseX2-=speed;
   
-  
+  if(ellipseX1 > width || ellipseX1 < 0){
+    speed = -speed;
+  }
  
   
   
